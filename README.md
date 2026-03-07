@@ -36,8 +36,8 @@ The repository includes the following resources:
     Lifestyle schema.xlsx
 
 /prompts
-    Extractionprompt.docx
-    Verify prompt.docx
+    Extraction prompt.docx
+    Verify prompt.doc
 ```
 
 ---
