@@ -23,7 +23,9 @@ The repository includes the following resources:
 
 * **Verification Prompt**
   The prompt template used for validating extracted triples and ensuring schema consistency and evidence alignment.
-
+  
+* **Triple data**
+  Gold-standard triple annotation dataset comprising 619 manually annotated triples from 200 randomly sampled PubMed abstracts, following the predefined knowledge graph schema.
 ---
 
 ## Repository Structure
@@ -38,6 +40,9 @@ The repository includes the following resources:
 /prompts
     Extraction prompt.docx
     Verify prompt.doc
+
+/kg_data
+    kg_label_set.xlsx
 ```
 
 ---
