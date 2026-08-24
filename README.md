@@ -38,7 +38,7 @@ The repository includes the following resources:
 
 /kg_data
     kg_label_set.xlsx
-    kg_200.graphml
+    kg.graphml
 
 /Verifier_annotations
     reflection_correction.xlsx
