@@ -12,7 +12,7 @@ The repository contains the evaluation dataset and prompt templates used in the 
 
 The repository includes the following resources:
 
-* **QA dataset**: Benchmark question–answer pairs (621) e.
+* **QA dataset**: Benchmark question–answer pairs (621).
 * **Schema definition**: Structured lifestyle knowledge schema with entity and relation types.  
 * **Extraction prompt**: Prompt template for schema-constrained triple extraction.  
 * **Verification prompt**: Prompt template for triple validation and consistency checking.  
@@ -28,7 +28,7 @@ The repository includes the following resources:
 ```
 /qa_dataset
     Lifestyle-QA dataset.xlsx
-
+    Lifestyle-QA dataset_test_labeled_20methods.xlsx
 /schema
     Lifestyle schema.xlsx
 
@@ -38,6 +38,13 @@ The repository includes the following resources:
 
 /kg_data
     kg_label_set.xlsx
+    kg_200.graphml
+
+/Verifier_annotations
+    reflection_correction.xlsx
+
+/Adversarial_queries
+    safety_test_set_all.xlsx
 ```
 
 ---
