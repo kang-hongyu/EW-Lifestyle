@@ -12,20 +12,15 @@ The repository contains the evaluation dataset and prompt templates used in the 
 
 The repository includes the following resources:
 
-* **QA Dataset**
-  A curated set of lifestyle-related question–answer pairs used to evaluate reasoning performance across different retrieval settings.
-
-* **Schema Definition**
-  The structured schema used for lifestyle knowledge representation, including entity types and relation types.
-
-* **Extraction Prompt**
-  The prompt template used to guide large language models in extracting schema-constrained triples from biomedical literature.
-
-* **Verification Prompt**
-  The prompt template used for validating extracted triples and ensuring schema consistency and evidence alignment.
-  
-* **Triple data**
-  Gold-standard triple annotation dataset comprising 619 manually annotated triples from 200 randomly sampled PubMed abstracts, following the predefined knowledge graph schema.
+* **QA dataset**: Benchmark question–answer pairs (621) e.
+* **Schema definition**: Structured lifestyle knowledge schema with entity and relation types.  
+* **Extraction prompt**: Prompt template for schema-constrained triple extraction.  
+* **Verification prompt**: Prompt template for triple validation and consistency checking.  
+* **Triple Annotations**: Gold-standard triple annotations from 200 manually annotated abstracts.
+* **Adversarial queries**: Adversarial safety evaluation query set.  
+* **Benchmark QA**: 521-question held-out test subset with reference answers and correctness labels across models.  
+* **Verifier annotations**: Knowledge Graph Verifier annotations and correction outcomes.  
+* **EW-LKG**: Evidence-Weighted Lifestyle Knowledge Graph. 
 ---
 
 ## Repository Structure
